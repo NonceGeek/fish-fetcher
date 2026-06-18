@@ -13,6 +13,12 @@ export default function Header() {
           <Link href="/" className={navLinkClass}>
             主页
           </Link>
+          <Link href="/collection" className={navLinkClass}>
+            查看图鉴
+          </Link>
+          <Link href="/whitepaper" className={navLinkClass}>
+            白皮书
+          </Link>
         </nav>
       </div>
     </header>
